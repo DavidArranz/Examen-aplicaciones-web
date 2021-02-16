@@ -3,6 +3,11 @@
 <head>
     <title>Examen Aplicaciones Web</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function funcion1() {
+            var nbit = document.getElementById("bitcoin_int").value;
+        }
+    </script>
 </head>
 <body class="colordefondo">
     <header>
@@ -10,7 +15,7 @@
         <hr>
     </header>
     <section>
-        <p>Bitcoin <input type="text"></p>
+        <p>Bitcoin <input type="text" id="bitcoin_int" onblur="funcion1()"></p>
 
     </section>
     <footer class="amarillo">

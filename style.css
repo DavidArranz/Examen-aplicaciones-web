@@ -1,0 +1,43 @@
+body.colordefondo {
+    background-color: coral;
+}
+h2.titulo {
+    color: blue;
+    position: relative;
+    left: 50%;
+}
+hr.blanco {
+    color: white;
+}
+section.img_bitcoin {
+    position: relative;
+    left: 70%;
+}
+
+section.colordefondoblanco {
+    background-color: white;
+}
+p.img_etherum {
+    position: relative;
+    left: 60%;
+    color: blue;
+}
+
+section.img_litecoin {
+    position: relative;
+    left: 30%;
+}
+
+footer.amarillo {
+    background-color: yellow;
+}
+p.centrado {
+    position: relative;
+    left: 50%;
+}
+samp.textorojo {
+    color: red;
+}
+p.texto_index {
+    color: blue;
+}
